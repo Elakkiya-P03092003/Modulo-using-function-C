@@ -1,0 +1,14 @@
+//modulo using function without arguments with return value
+#include <stdio.h>
+int mod();
+int main()
+{
+    int c = mod();
+    printf("%d",c);
+}
+int mod(){
+    int a,b,c;
+    scanf("%d %d",&a,&b);
+    c=a%b;
+    return c;
+}
